@@ -9,7 +9,7 @@ profile:
   image: me.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>No problem can withstand the assault of sustained thinking.</p>
+    <p>No problem can withstand the assault of sustained thinking - Voltaire</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
