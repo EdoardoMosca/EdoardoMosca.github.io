@@ -50,6 +50,8 @@
     doi = "10.18653/v1/2022.trustnlp-1.5",
     pages = "49--63",
     abbr = "TrustNLP",
+    abstract = "Large-scale surveys are a widely used instrument to collect data from a target audience. Beyond the single individual, an appropriate analysis of the answers can reveal trends and patterns and thus generate new insights and knowledge for researchers. Current analysis practices employ shallow machine learning methods or rely on (biased) human judgment. This work investigates the usage of state-of-the-art NLP models such as BERT to automatically extract information from both open- and closed-ended questions. We also leverage explainability methods at different levels of granularity to further derive knowledge from the analysis model. Experiments on EMS—a survey-based study researching influencing factors affecting a student’s career goals—show that the proposed approach can identify such factors both at the input- and higher concept-level.",
+    website = "https://aclanthology.org/2022.trustnlp-1.5/"
 }
 
 @inproceedings{mosca2022suspicious,
@@ -67,6 +69,8 @@
     doi = "10.18653/v1/2022.acl-long.538",
     pages = "7806--7816",
     abbr = "ACL",
+    abstract = "Adversarial attacks are a major challenge faced by current machine learning research. These purposely crafted inputs fool even the most advanced models, precluding their deployment in safety-critical applications. Extensive research in computer vision has been carried to develop reliable defense strategies. However, the same issue remains less explored in natural language processing. Our work presents a model-agnostic detector of adversarial text examples. The approach identifies patterns in the logits of the target classifier when perturbing the input text. The proposed detector improves the current state-of-the-art performance in recognizing adversarial inputs and exhibits strong generalization capabilities across different NLP models, datasets, and word-level attacks.",
+    website = "https://aclanthology.org/2022.acl-long.538/"
 }
 
 @inproceedings{mosca2022grammarshap,
@@ -85,6 +89,8 @@
     doi = "10.18653/v1/2022.lnls-1.2",
     pages = "10--16",
     abbr = "LMLS",
+    abstract = "Interpreting NLP models is fundamental for their development as it can shed light on hidden properties and unexpected behaviors. However, while transformer architectures exploit contextual information to enhance their predictive capabilities, most of the available methods to explain such predictions only provide importance scores at the word level. This work addresses the lack of feature attribution approaches that also take into account the sentence structure. We extend the SHAP framework by proposing GrammarSHAP—a model-agnostic explainer leveraging the sentence’s constituency parsing to generate hierarchical importance scores.",
+    website = "https://aclanthology.org/2022.lnls-1.2/",
 }
 
 @inproceedings{wich2021explainable,
@@ -96,6 +102,8 @@
   organization={Springer},
   url={https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_663.pdf},
   abbr = "ECML -- PKDD",
+  abstract = "Online hate speech is a phenomenon with considerable consequences for our society. Its automatic detection using machine learning is a promising approach to contain its spread. However, classifying abusive language with a model that purely relies on text data is limited in performance due to the complexity and diversity of speech (e.g., irony, sarcasm). Moreover, studies have shown that a significant amount of hate on social media platforms stems from online hate communities. Therefore, we develop an abusive language detection model leveraging user and network data to improve the classification performance. We integrate the explainable AI framework SHAP (SHapley Additive exPlanations) to alleviate the general issue of missing transparency associated with deep learning models, allowing us to assess the model's vulnerability toward bias and systematic discrimination reliably. Furthermore, we evaluate our multimodel architecture on three datasets in two languages (i.e., English and German). Our results show that user-specific timeline and network data can improve the classification, while the additional explanations resulting from SHAP make the predictions of the model interpretable to humans.",
+  website = "https://dl.acm.org/doi/abs/10.1007/978-3-030-86517-7_30",
 }
 
 @inproceedings{mosca2022detecting,
@@ -113,6 +121,9 @@
     doi = "10.18653/v1/2022.repl4nlp-1.16",
     pages = "156--166",
     abbr = "RepL4NLP",
+    abstract = "State-of-the-art machine learning models are prone to adversarial attacks”:” Maliciously crafted inputs to fool the model into making a wrong prediction, often with high confidence. While defense strategies have been extensively explored in the computer vision domain, research in natural language processing still lacks techniques to make models resilient to adversarial text inputs. We adapt a technique from computer vision to detect word-level attacks targeting text classifiers. This method relies on training an adversarial detector leveraging Shapley additive explanations and outperforms the current state-of-the-art on two benchmarks. Furthermore, we prove the detector requires only a low amount of training samples and, in some cases, generalizes to different datasets without needing to retrain.
+    ",
+    website = "https://aclanthology.org/2022.repl4nlp-1.16/",
 }
 
 @article{mosca2023ifan,
@@ -123,6 +134,8 @@
   url={https://arxiv.org/abs/2303.03124},
   note={(Accepted at AACL, Nov 2023)},
   abbr = "AACL",
+  abstract = "Interpretability and human oversight are fundamental pillars of deploying complex NLP models into real-world applications. However, applying explainability and human-in-the-loop methods requires technical proficiency. Despite existing toolkits for model understanding and analysis, options to integrate human feedback are still limited. We propose IFAN, a framework for real-time explanation-based interaction with NLP models. Through IFAN's interface, users can provide feedback to selected model explanations, which is then integrated through adapter layers to align the model with human rationale. We show the system to be effective in debiasing a hate speech classifier with minimal impact on performance. IFAN also offers a visual admin system and API to manage models (and datasets) as well as control access rights. A demo is live at this https URL.",
+  website = "https://arxiv.org/abs/2303.03124",
 }
 
 @inproceedings{mosca-etal-2023-distinguishing,
@@ -141,6 +154,8 @@
     doi = "10.18653/v1/2023.trustnlp-1.17",
     pages = "190--207",
     abbr = "TrustNLP",
+    abstract = "As generative NLP can now produce content nearly indistinguishable from human writing, it becomes difficult to identify genuine research contributions in academic writing and scientific publications. Moreover, information in NLP-generated text can potentially be factually wrong or even entirely fabricated. This study introduces a novel benchmark dataset, containing human-written and machine-generated scientific papers from SCIgen, GPT-2, GPT-3, ChatGPT, and Galactica. After describing the generation and extraction pipelines, we also experiment with four distinct classifiers as a baseline for detecting the authorship of scientific text. A strong focus is put on generalization capabilities and explainability to highlight the strengths and weaknesses of detectors. We believe our work serves as an important step towards creating more robust methods for distinguishing between human-written and machine-generated scientific papers, ultimately ensuring the integrity of scientific literature.",
+    website = "https://aclanthology.org/2023.trustnlp-1.17/",
 }
 
 @inproceedings{schirmer2023uncovering,
@@ -149,7 +164,9 @@
   booktitle={Proceedings of the Nineteenth International Conference on Artificial Intelligence and Law},
   pages={257--266},
   year={2023},
-  abbr={ICAIL}
+  abbr={ICAIL},
+  abstract = "This paper applies Natural Language Processing (NLP) methods to analyze the exposure to trauma experienced by witnesses in international criminal tribunals when testifying in court. One major contribution of this study is the creation of a substantially extended version of the Genocide Transcript Corpus (GTC) that includes 52,845 text segments of transcripts from three different genocide tribunals. Based on this data, we first examine the prevalence of trauma-related content in witness statements. Second, we are implementing a binary classification algorithm to automatically detect potentially traumatic content. Therefore, in a preparatory step, an Active Learning (AL) approach is applied to establish the ideal size for the training data set. Subsequently, this data is used to train a transformer model. In this case, the two models BERTbase and HateBERT are used for both steps, allowing for a comparison of a base-level model with a model that has already been pre-trained on data more relevant in the context of harmful vocabulary. In a third step, the study employs an Explainable Artificial Intelligence (XAI) model to gain a deeper understanding of the reasoning behind the model's classifications. Our results suggest that both BERTbase and HateBERT perform comparatively well on this classification task, with no model clearly outperforming the other. The classification outcomes further suggest that a reduced data set size can achieve equally high performance metrics and might be a preferable choice in certain use cases. The results can be used to establish more trauma-informed legal procedures in genocide-related tribunals, including the identification of potentially re-traumatizing examination approaches at an early stage.",
+  website = "https://dl.acm.org/doi/10.1145/3594536.3595147",
 }
 
 @article{abdalla2023benchmark,
@@ -161,7 +178,9 @@
   pages={522},
   year={2023},
   publisher={MDPI},
-  abbr={MDPI}
+  abbr={MDPI},
+  abstract = "As generative NLP can now produce content nearly indistinguishable from human writing, it is becoming difficult to identify genuine research contributions in academic writing and scientific publications. Moreover, information in machine-generated text can be factually wrong or even entirely fabricated. In this work, we introduce a novel benchmark dataset containing human-written and machine-generated scientific papers from SCIgen, GPT-2, GPT-3, ChatGPT, and Galactica, as well as papers co-created by humans and ChatGPT. We also experiment with several types of classifiers—linguistic-based and transformer-based—for detecting the authorship of scientific text. A strong focus is put on generalization capabilities and explainability to highlight the strengths and weaknesses of these detectors. Our work makes an important step towards creating more robust methods for distinguishing between human-written and machine-generated scientific papers, ultimately ensuring the integrity of scientific literature.",
+  website = "https://www.mdpi.com/2078-2489/14/10/522",
 }
 
 
@@ -174,7 +193,9 @@
   pages={856--867},
   year={2020},
   publisher={IEEE},
-  abbr={TC}
+  abbr={TC},
+  abstract = "Hardware/software co-designs are usually defined at high levels of abstractions at the beginning of the design process in order to provide a variety of options on how to realize a system. This allows for design exploration which relies on knowing the costs of different design configurations (with respect to hardware usage and firmware metrics). To this end, methods for cost estimation are frequently applied in industrial practice. However, currently used methods oversimplify the problem and ignore important features, leading to estimates which are far off from real values. In this article, we address this problem for memory systems. To this end, we borrow and re-adapt solutions based on Machine Learning (ML) which have been found suitable for problems from the domain of Computer Vision (CV). Based on that, an approach is proposed which outperforms existing methods for cost estimation. Experimental evaluations within an industrial context show that, while the accuracy of the state-of-the-art approach is frequently off by more than 20 percent for area estimation and more than 15 percent for firmware estimation, the method proposed in this article comes rather close to the actual values (just 5-7 percent off for both area and firmware). Furthermore, our approach outperforms existing methods for scalability, generalization, and decrease in manual effort.",
+  website = "https://ieeexplore.ieee.org/document/8967025",
 }
 
 @inproceedings{servadei2020cost,
@@ -183,7 +204,9 @@
   booktitle={Proceedings of the 2020 on Great Lakes Symposium on VLSI},
   pages={405--410},
   year={2020},
-  abbr={GLSVLSI}
+  abbr={GLSVLSI},
+  abstract = "The complexity of today's System on Chips (SoCs) forces designers to use higher levels of abstractions. Here, early design decisions are conducted on abstract models while different configurations describe how to actually realize the desired SoC. Since those decisions severely affect the final costs of the resulting SoC (in terms of utilized area, power consumption, etc.), a fast and accurate cost estimation is essential at this design stage. Additionally, the resulting costs heavily depend on the adopted logic synthesis algorithms, which optimize the design towards one or more cost objectives. But how to structure a cost estimation method that supports multiple configurations of an SoC, implemented by use of different synthesis strategies, remains an open question. In this work, we address this problem by providing a cost estimation method for a configurable SoC using Machine Learning (ML). A key element of the proposed method is a data representation which describes SoC configurations in a way that is suited for advanced ML algorithms. Experimental evaluations conducted within an industrial environment confirm the accuracy as well as the efficiency of the proposed method.",
+  website = "https://dl.acm.org/doi/10.1145/3386263.3406950",
 }
 
 @inproceedings{servadei2019combining,
@@ -193,5 +216,7 @@
   pages={1--6},
   year={2019},
   organization={IEEE},
-  abbr={MLCAD}
+  abbr={MLCAD},
+  abstract = "With the advancement of Internet of Things, the cost of System-on-Chips (in terms of area, performance, etc.) becomes increasingly relevant for realizing affordable as well as performant devices. Although System-on-Chips are very diverse with respect to specifications and requirements, some components are ubiquitous. One of them is the Hardware/Software Interface, which serves for controlling communication and interconnected functionalities between Hardware and Software. Motivated by their common use, the implementation of optimized interfaces towards certain costs (in terms of area, performance, etc.) becomes a central problem in the design of embedded systems. In this work we introduce a novel optimization method for minimizing the cost of Hardware/Software Interfaces using Convolutional Neural Networks coupled with Evolutionary Algorithms.",
+  website = "https://ieeexplore.ieee.org/document/9142090",
 }
