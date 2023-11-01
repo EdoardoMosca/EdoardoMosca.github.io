@@ -14,7 +14,8 @@
     pages = "4593--4603",
     abbr = "COLING",
     abstract = "Model explanations are crucial for the transparent, safe, and trustworthy deployment of machine learning models. The SHapley Additive exPlanations (SHAP) framework is considered by many to be a gold standard for local explanations thanks to its solid theoretical background and general applicability. In the years following its publication, several variants appeared in the literature—presenting adaptations in the core assumptions and target applications. In this work, we review all relevant SHAP-based interpretability approaches available to date and provide instructive examples as well as recommendations regarding their applicability to NLP use cases.",
-    website = "https://aclanthology.org/2022.coling-1.406/"
+    website = "https://aclanthology.org/2022.coling-1.406/",
+    slides = "COLING_2022_presentation.pdf"
 }
 
 @inproceedings{mosca2021understanding,
@@ -32,7 +33,9 @@
     pages = "91--102",
     abbr = "SocialNLP",
     abstract = "As hate speech spreads on social media and online communities, research continues to work on its automatic detection. Recently, recognition performance has been increasing thanks to advances in deep learning and the integration of user features. This work investigates the effects that such features can have on a detection model. Unlike previous research, we show that simple performance comparison does not expose the full impact of including contextual- and user information. By leveraging explainability techniques, we show (1) that user features play a role in the model’s decision and (2) how they affect the feature space learned by the model. Besides revealing that—and also illustrating why—user features are the reason for performance gains, we show how such techniques can be combined to better understand the model and to detect unintended bias.",
-    website = "https://aclanthology.org/2021.socialnlp-1.8/"
+    website = "https://aclanthology.org/2021.socialnlp-1.8/",
+    slides = "socialNLP_2021_presentation.pdf",
+    poster = "socialNLP_2021_poster.pdf",
 }
 
 @inproceedings{mosca2022explaining,
@@ -51,7 +54,9 @@
     pages = "49--63",
     abbr = "TrustNLP",
     abstract = "Large-scale surveys are a widely used instrument to collect data from a target audience. Beyond the single individual, an appropriate analysis of the answers can reveal trends and patterns and thus generate new insights and knowledge for researchers. Current analysis practices employ shallow machine learning methods or rely on (biased) human judgment. This work investigates the usage of state-of-the-art NLP models such as BERT to automatically extract information from both open- and closed-ended questions. We also leverage explainability methods at different levels of granularity to further derive knowledge from the analysis model. Experiments on EMS—a survey-based study researching influencing factors affecting a student’s career goals—show that the proposed approach can identify such factors both at the input- and higher concept-level.",
-    website = "https://aclanthology.org/2022.trustnlp-1.5/"
+    website = "https://aclanthology.org/2022.trustnlp-1.5/",
+    slides = "TrustNLP_NAACL_2022_presentation.pdf",
+    poster = "TrustNLP_NAACL_2022_poster.pdf"
 }
 
 @inproceedings{mosca2022suspicious,
@@ -70,7 +75,9 @@
     pages = "7806--7816",
     abbr = "ACL",
     abstract = "Adversarial attacks are a major challenge faced by current machine learning research. These purposely crafted inputs fool even the most advanced models, precluding their deployment in safety-critical applications. Extensive research in computer vision has been carried to develop reliable defense strategies. However, the same issue remains less explored in natural language processing. Our work presents a model-agnostic detector of adversarial text examples. The approach identifies patterns in the logits of the target classifier when perturbing the input text. The proposed detector improves the current state-of-the-art performance in recognizing adversarial inputs and exhibits strong generalization capabilities across different NLP models, datasets, and word-level attacks.",
-    website = "https://aclanthology.org/2022.acl-long.538/"
+    website = "https://aclanthology.org/2022.acl-long.538/",
+    poster = "ACL_2022_poster.pdf",
+    slides = "ACL_2022_presentation.pdf"
 }
 
 @inproceedings{mosca2022grammarshap,
@@ -91,6 +98,7 @@
     abbr = "LMLS",
     abstract = "Interpreting NLP models is fundamental for their development as it can shed light on hidden properties and unexpected behaviors. However, while transformer architectures exploit contextual information to enhance their predictive capabilities, most of the available methods to explain such predictions only provide importance scores at the word level. This work addresses the lack of feature attribution approaches that also take into account the sentence structure. We extend the SHAP framework by proposing GrammarSHAP—a model-agnostic explainer leveraging the sentence’s constituency parsing to generate hierarchical importance scores.",
     website = "https://aclanthology.org/2022.lnls-1.2/",
+    poster = "LNLS_ACL_2022_poster.pdf"
 }
 
 @inproceedings{wich2021explainable,
@@ -124,6 +132,7 @@
     abstract = "State-of-the-art machine learning models are prone to adversarial attacks”:” Maliciously crafted inputs to fool the model into making a wrong prediction, often with high confidence. While defense strategies have been extensively explored in the computer vision domain, research in natural language processing still lacks techniques to make models resilient to adversarial text inputs. We adapt a technique from computer vision to detect word-level attacks targeting text classifiers. This method relies on training an adversarial detector leveraging Shapley additive explanations and outperforms the current state-of-the-art on two benchmarks. Furthermore, we prove the detector requires only a low amount of training samples and, in some cases, generalizes to different datasets without needing to retrain.
     ",
     website = "https://aclanthology.org/2022.repl4nlp-1.16/",
+    poster = "RepL4NLP_ACL_2022_poster.pdf",
 }
 
 @article{mosca2023ifan,
@@ -136,6 +145,7 @@
   abbr = "AACL",
   abstract = "Interpretability and human oversight are fundamental pillars of deploying complex NLP models into real-world applications. However, applying explainability and human-in-the-loop methods requires technical proficiency. Despite existing toolkits for model understanding and analysis, options to integrate human feedback are still limited. We propose IFAN, a framework for real-time explanation-based interaction with NLP models. Through IFAN's interface, users can provide feedback to selected model explanations, which is then integrated through adapter layers to align the model with human rationale. We show the system to be effective in debiasing a hate speech classifier with minimal impact on performance. IFAN also offers a visual admin system and API to manage models (and datasets) as well as control access rights. A demo is live at this https URL.",
   website = "https://arxiv.org/abs/2303.03124",
+  slides = "AACL_2023_presentation.pdf",
 }
 
 @inproceedings{mosca-etal-2023-distinguishing,
@@ -156,6 +166,7 @@
     abbr = "TrustNLP",
     abstract = "As generative NLP can now produce content nearly indistinguishable from human writing, it becomes difficult to identify genuine research contributions in academic writing and scientific publications. Moreover, information in NLP-generated text can potentially be factually wrong or even entirely fabricated. This study introduces a novel benchmark dataset, containing human-written and machine-generated scientific papers from SCIgen, GPT-2, GPT-3, ChatGPT, and Galactica. After describing the generation and extraction pipelines, we also experiment with four distinct classifiers as a baseline for detecting the authorship of scientific text. A strong focus is put on generalization capabilities and explainability to highlight the strengths and weaknesses of detectors. We believe our work serves as an important step towards creating more robust methods for distinguishing between human-written and machine-generated scientific papers, ultimately ensuring the integrity of scientific literature.",
     website = "https://aclanthology.org/2023.trustnlp-1.17/",
+    poster = "TrustNLP_ACL_2023_poster.pdf"
 }
 
 @inproceedings{schirmer2023uncovering,
