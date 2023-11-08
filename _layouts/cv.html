@@ -1,15 +1,21 @@
 ---
 layout: default
 ---
-<!-- _layouts/cv.html -->
+
+<style>
+    /* Add responsive CSS for the embedded PDF */
+    embed {
+        width: 100%;
+        height: 100vh;
+    }
+</style>
+
 <html>
 <head>
     <title>PDF Preview and Download</title>
 </head>
 <body>
-    <!--<h2><a href="../assets/pdf/CV.pdf" download>Download CV</a></h2>-->
-
     <!-- PDF Viewer -->
-    <embed src="../assets/pdf/CV.pdf" type="application/pdf" width="150%" height="700px">
+    <embed src="../assets/pdf/CV.pdf" type="application/pdf">
 </body>
 </html>
