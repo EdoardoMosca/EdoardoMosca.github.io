@@ -6,7 +6,7 @@ layout: default
 <head>
     <title>PDF Preview and Download</title>
 </head>
-<body>
+<body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
     <!--<h2><a href="../assets/pdf/CV.pdf" download>Download CV</a></h2>-->
 
     <!-- PDF Viewer -->
