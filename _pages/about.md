@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, I am Edoardo, but feel free to call me "Edo". 
 
-I work as a Lead ML Scientist at [Liquid AI](https://www.liquid.ai/), where I work on Liquid Foundation Models (LFMs) . I am also a postdoctoral researcher in *Natural Language Processing* (NLP) at the Technical University of Munich (TUM), where I supervise a small team of doctoral researchers. My background is in mathematics with strong experience in the industry, academia, and start-ups. 
+I work as a Lead ML Scientist at [Liquid AI](https://www.liquid.ai/), where I work on Liquid Foundation Models (LFMs). I am also a postdoctoral researcher in *Natural Language Processing* (NLP) at the Technical University of Munich (TUM), where I supervise a small team of doctoral researchers. My background is in mathematics with strong experience in the industry, academia, and start-ups. 
 
 I hold a PhD in Computer Science from the Technical University of Munich under the supervision of [Prof. Dr. Georg Groh](https://socvm1.cit.tum.de/persons/georg-groh/) at the [Social Computing Group](https://socvm1.cit.tum.de/persons/). My dissertation ***"Explainable AI for the Human-Centric Development of NLP Models"*** has a strong focus on post-hoc explainability techniques to improve LLMs' interpretability, robustness, and controllability.
 
